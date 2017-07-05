@@ -1,4 +1,4 @@
-# LanguageServer-Typescript package
+# IDE-TypeScript package
 [![macOS Build Status](https://travis-ci.org/atom/languageserver-typescript.svg?branch=master)](https://travis-ci.org/atom/languageserver-typescript) [![Windows Build Status](https://ci.appveyor.com/api/projects/languageserver-typescript/settings/branch/master?svg=true)](https://ci.appveyor.com/project/Atom/languageserver-typescript/branch/master) [![Dependency Status](https://david-dm.org/atom/languageserver-typescript.svg)](https://david-dm.org/atom/languageserver-typescript)
 
 Provide TypeScript language support in Atom via the SourceGraph TypeScript Language Server. 
