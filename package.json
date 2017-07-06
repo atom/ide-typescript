@@ -1,9 +1,9 @@
 {
-  "name": "languageserver-typescript",
+  "name": "ide-typescript",
   "main": "./lib/main",
   "version": "0.1.0",
-  "description": "Provide TypeScript language support in Atom via the SourceGraph TypeScript Language Server.",
-  "repository": "https://github.com/atom/languageserver-typescript",
+  "description": "TypeScript and Javascript language support for Atom-IDE",
+  "repository": "https://github.com/atom/ide-typescript",
   "license": "MIT",
   "engines": {
     "atom": ">=1.17.0"
