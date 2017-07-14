@@ -9,8 +9,8 @@
     "atom": ">=1.17.0"
   },
   "dependencies": {
-    "atom-languageclient": "^0.1.0",
-    "javascript-typescript-langserver": "^2.0.0-pre.34"
+    "atom-languageclient": "0.1.2",
+    "javascript-typescript-langserver": "2.0.1"
   },
   "consumedServices": {
     "linter-indie": {
