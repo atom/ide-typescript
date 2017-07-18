@@ -1,5 +1,5 @@
 # IDE-TypeScript package
-[![macOS Build Status](https://travis-ci.org/atom/ide-typescript.svg?branch=master)](https://travis-ci.org/atom/ide-typescript) [![Windows Build Status](https://ci.appveyor.com/api/projects/ide-typescript/settings/branch/master?svg=true)](https://ci.appveyor.com/project/Atom/ide-typescript/branch/master) [![Dependency Status](https://david-dm.org/atom/ide-typescript.svg)](https://david-dm.org/atom/ide-typescript)
+[![macOS Build Status](https://travis-ci.org/atom/ide-typescript.svg?branch=master)](https://travis-ci.org/atom/ide-typescript) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/o1csvdbqau6m7awm?svg=true)](https://ci.appveyor.com/project/Atom/ide-typescript/branch/master) [![Dependency Status](https://david-dm.org/atom/ide-typescript.svg)](https://david-dm.org/atom/ide-typescript)
 
 TypeScript and Javascript language support for Atom-IDE, powered by the [SourceGraph Typescript Language Server](https://github.com/sourcegraph/javascript-typescript-langserver).
 
