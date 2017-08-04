@@ -6,7 +6,7 @@
   "repository": "https://github.com/atom/ide-typescript",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.17.0"
+    "atom": ">=1.18.0"
   },
   "dependencies": {
     "atom-languageclient": "^0.1.4",
