@@ -18,7 +18,7 @@
         "2.0.0": "consumeLinterV2"
       }
     },
-    "nuclide-datatip.provider": {
+    "datatip": {
       "versions": {
         "0.0.0": "consumeDatatip"
       }
@@ -35,17 +35,17 @@
         "0.0.0": "provideCodeFormat"
       }
     },
-    "nuclide-definition-provider": {
+    "definitions": {
       "versions": {
         "0.0.0": "provideDefinitions"
       }
     },
-    "nuclide-find-references.provider": {
+    "find-references": {
       "versions": {
         "0.0.0": "provideFindReferences"
       }
     },
-    "nuclide-outline-view": {
+    "outline-view": {
       "versions": {
         "0.0.0": "provideOutlines"
       }
