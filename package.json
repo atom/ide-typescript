@@ -12,6 +12,11 @@
     "atom-languageclient": "^0.1.4",
     "javascript-typescript-langserver": "^2.1.0"
   },
+  "enhancedScopes": [
+    "source.ts",
+    "source.js",
+    "source.js.jsx"
+  ],
   "consumedServices": {
     "linter-indie": {
       "versions": {
