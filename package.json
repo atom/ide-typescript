@@ -9,7 +9,7 @@
     "atom": ">=1.18.0"
   },
   "dependencies": {
-    "atom-languageclient": "^0.1.4",
+    "atom-languageclient": "^0.2.0",
     "javascript-typescript-langserver": "^2.1.0"
   },
   "enhancedScopes": [
