@@ -2,14 +2,14 @@
   "name": "ide-typescript",
   "main": "./lib/main",
   "version": "0.1.0",
-  "description": "TypeScript and Javascript language support for Atom-IDE.",
+  "description": "TypeScript and JavaScript language support for Atom-IDE.",
   "repository": "https://github.com/atom/ide-typescript",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.18.0"
+    "atom": ">=1.19.0"
   },
   "dependencies": {
-    "atom-languageclient": "^0.2.0",
+    "atom-languageclient": "^0.4.0",
     "javascript-typescript-langserver": "^2.1.0"
   },
   "enhancedScopes": [
@@ -33,11 +33,6 @@
     "autocomplete.provider": {
       "versions": {
         "2.0.0": "provideAutocomplete"
-      }
-    },
-    "nuclide-code-format.provider": {
-      "versions": {
-        "0.0.0": "provideCodeFormat"
       }
     },
     "definitions": {
