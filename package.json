@@ -21,11 +21,11 @@
       "enum": [
         {
           "value": "left",
-          "description": "On their own to the left (as per other languages)"
+          "description": "On their own to the left (like other languages)"
         },
         {
           "value": "right",
-          "description": "Following parameters to the right (as per source code)"
+          "description": "Following parameters to the right (like source code)"
         }
       ],
       "description": "Where return types are shown in AutoComplete."
