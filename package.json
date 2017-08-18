@@ -1,7 +1,7 @@
 {
   "name": "ide-typescript",
   "main": "./lib/main",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "TypeScript and JavaScript language support for Atom-IDE.",
   "repository": "https://github.com/atom/ide-typescript",
   "license": "MIT",
@@ -19,8 +19,14 @@
       "type": "string",
       "default": "left",
       "enum": [
-           { "value": "left", "description": "On their own to the left (as per other languages)" },
-           { "value": "right", "description": "Following parameters to the right (as per source code)" }
+        {
+          "value": "left",
+          "description": "On their own to the left (as per other languages)"
+        },
+        {
+          "value": "right",
+          "description": "Following parameters to the right (as per source code)"
+        }
       ],
       "description": "Where return types are shown in AutoComplete."
     }
