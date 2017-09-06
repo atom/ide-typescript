@@ -38,6 +38,7 @@
   },
   "enhancedScopes": [
     "source.ts",
+    "source.tsx",
     "source.js",
     "source.js.jsx"
   ],
