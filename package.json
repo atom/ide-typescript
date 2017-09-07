@@ -1,26 +1,56 @@
 {
   "name": "ide-typescript",
   "main": "./lib/main",
-  "version": "0.1.0",
-  "description": "TypeScript and Javascript language support for Atom-IDE",
+  "version": "0.1.6",
+  "description": "TypeScript and JavaScript language support for Atom-IDE.",
   "repository": "https://github.com/atom/ide-typescript",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.17.0"
+    "atom": ">=1.19.0"
+  },
+  "configSchema": {
+    "javascriptSupport": {
+      "type": "boolean",
+      "title": "JavaScript support",
+      "default": true,
+      "description": "Use the TypeScript language server to also provide services for JavaScript."
+    },
+    "returnTypeInAutocomplete": {
+      "type": "string",
+      "default": "left",
+      "enum": [
+        {
+          "value": "left",
+          "description": "On their own to the left (like other languages)"
+        },
+        {
+          "value": "right",
+          "description": "Following parameters to the right (like source code)"
+        }
+      ],
+      "description": "Where return types are shown in AutoComplete."
+    }
   },
   "dependencies": {
-    "atom-languageclient": "0.1.2",
-    "javascript-typescript-langserver": "2.0.1"
+    "atom-languageclient": "^0.5.0",
+    "fuzzaldrin-plus": "^0.4.1",
+    "javascript-typescript-langserver": "^2.2.1"
   },
+  "enhancedScopes": [
+    "source.ts",
+    "source.tsx",
+    "source.js",
+    "source.js.jsx"
+  ],
   "consumedServices": {
     "linter-indie": {
       "versions": {
         "2.0.0": "consumeLinterV2"
       }
     },
-    "nuclide-datatip.provider": {
+    "datatip": {
       "versions": {
-        "0.0.0": "consumeDatatip"
+        "0.1.0": "consumeDatatip"
       }
     }
   },
@@ -30,24 +60,19 @@
         "2.0.0": "provideAutocomplete"
       }
     },
-    "nuclide-code-format.provider": {
+    "definitions": {
       "versions": {
-        "0.0.0": "provideCodeFormat"
+        "0.1.0": "provideDefinitions"
       }
     },
-    "nuclide-definition-provider": {
+    "find-references": {
       "versions": {
-        "0.0.0": "provideDefinitions"
+        "0.1.0": "provideFindReferences"
       }
     },
-    "nuclide-find-references.provider": {
+    "outline-view": {
       "versions": {
-        "0.0.0": "provideFindReferences"
-      }
-    },
-    "nuclide-outline-view": {
-      "versions": {
-        "0.0.0": "provideOutlines"
+        "0.1.0": "provideOutlines"
       }
     }
   }
