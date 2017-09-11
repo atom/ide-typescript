@@ -1,12 +1,12 @@
 {
   "name": "ide-typescript",
   "main": "./lib/main",
-  "version": "0.1.6",
+  "version": "0.5.0",
   "description": "TypeScript and JavaScript language support for Atom-IDE.",
   "repository": "https://github.com/atom/ide-typescript",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.19.0"
+    "atom": ">=1.21.0"
   },
   "configSchema": {
     "javascriptSupport": {
