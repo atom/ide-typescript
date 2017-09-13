@@ -60,6 +60,11 @@
         "2.0.0": "provideAutocomplete"
       }
     },
+    "code-format.range": {
+      "versions": {
+        "0.1.0": "provideCodeFormat"
+      }
+    },
     "definitions": {
       "versions": {
         "0.1.0": "provideDefinitions"
