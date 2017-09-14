@@ -3,6 +3,8 @@
 
 TypeScript and JavaScript language support for Atom-IDE, powered by the [Sourcegraph TypeScript Language Server](https://github.com/sourcegraph/javascript-typescript-langserver).
 
+**Requires [Atom 1.21](https://atom.io/beta) - currently in beta**
+
 ![Screen shot of IDE-TypeScript](https://user-images.githubusercontent.com/118951/30306800-37e3c506-972f-11e7-805c-ba5a45a6bc3c.png)
 
 ## Early access
