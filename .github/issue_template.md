@@ -1,6 +1,6 @@
 A few things to know before you create an issue
 
-* This package requires [Atom 1.21 beta](https://atom.io/beta)
+* This package requires [Atom 1.21](https://atom.io)
 * We launch a "language server" process on your machine that understands the language you are editing
 * What that server can do - syntax compatibility, whether it supports formatting or outlines etc - is outside of our control
 * You can see what the language server supports by checking out our README and following the link after "powered by"
