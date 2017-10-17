@@ -52,12 +52,22 @@
       "versions": {
         "0.1.0": "consumeDatatip"
       }
+    },
+    "signature-help": {
+      "versions": {
+        "0.1.0": "consumeSignatureHelp"
+      }
     }
   },
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
         "2.0.0": "provideAutocomplete"
+      }
+    },
+    "code-actions": {
+      "versions": {
+        "0.1.0": "provideCodeActions"
       }
     },
     "code-format.range": {
