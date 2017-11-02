@@ -43,14 +43,19 @@
     "source.js.jsx"
   ],
   "consumedServices": {
+    "datatip": {
+      "versions": {
+        "0.1.0": "consumeDatatip"
+      }
+    },
     "linter-indie": {
       "versions": {
         "2.0.0": "consumeLinterV2"
       }
     },
-    "datatip": {
+    "signature-help": {
       "versions": {
-        "0.1.0": "consumeDatatip"
+        "0.1.0": "consumeSignatureHelp"
       }
     }
   },
