@@ -12,7 +12,7 @@ This package is currently an early access release.  You should also install the 
 ## Features
 
 * Auto completion
-* Diagnostics (errors & warnings)
+* Diagnostics (errors & warnings, with autofixes)
 * Document outline
 * Find references
 * Go to definition
