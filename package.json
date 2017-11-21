@@ -9,6 +9,11 @@
     "atom": ">=1.21.0"
   },
   "configSchema": {
+    "diagnosticsEnabled": {
+      "type": "boolean",
+      "default": true,
+      "description": "Use the TypeScript language server to provide diagnostics and warnings."
+    },
     "javascriptSupport": {
       "type": "boolean",
       "title": "JavaScript support",
