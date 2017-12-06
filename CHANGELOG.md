@@ -1,3 +1,11 @@
+## v0.7.1
+
+- Update language server
+- Update atom-language-client
+  - Now resolves autocomplete suggestions
+- Force server shutdown after 2 seconds during quit
+- Add configuration switch to turn off diagnostics
+
 ## v0.7.0
 
 - Update language server
