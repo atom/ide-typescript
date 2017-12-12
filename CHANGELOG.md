@@ -1,3 +1,9 @@
+## 0.7.2
+
+- Update atom-language-client
+  - Resolved autocomplete suggestions retain while filtering
+  - Return type processing works again
+
 ## v0.7.1
 
 - Update language server
