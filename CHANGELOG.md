@@ -1,4 +1,9 @@
-## 0.7.2
+## v0.7.3
+
+- Update language server to make use of TypeScript 2.7.2
+- Update atom-languageclient for better language server stability
+
+## v0.7.2
 
 - Update atom-language-client
   - Resolved autocomplete suggestions retain while filtering
