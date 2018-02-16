@@ -39,7 +39,7 @@
   "dependencies": {
     "atom-languageclient": "^0.8.3",
     "fuzzaldrin-plus": "^0.6.0",
-    "javascript-typescript-langserver": "^2.6.0"
+    "javascript-typescript-langserver": "^2.7.0"
   },
   "enhancedScopes": [
     "source.ts",
