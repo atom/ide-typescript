@@ -1,3 +1,7 @@
+## v0.7.4
+
+- Update atom-languageclient for much improved autocomplete
+
 ## v0.7.3
 
 - Update language server to make use of TypeScript 2.7.2
