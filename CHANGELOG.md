@@ -1,3 +1,7 @@
+## v0.7.5
+
+- Update atom-languageclient to 0.9.1 to address missing trigger characters on some completions
+
 ## v0.7.4
 
 - Update atom-languageclient for much improved autocomplete
