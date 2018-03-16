@@ -20,6 +20,12 @@
       "default": true,
       "description": "Use the TypeScript language server to also provide services for JavaScript."
     },
+    "ignoreFlow": {
+      "type": "boolean",
+      "title": "Ignore Flow project folders",
+      "default": true,
+      "description": "Ignore project folders if that contain a Flow `.flowconfig` file."
+    },
     "returnTypeInAutocomplete": {
       "type": "string",
       "default": "left",
