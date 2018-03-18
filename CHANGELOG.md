@@ -1,3 +1,9 @@
+## v0.7.6
+
+- Compatibility with Atom's experimental tree-sitter parsing
+- Log messages from the language server are now shown in the Atom IDE UI Console window
+- Removed redundant fuzzaldrin-plus dependency
+
 ## v0.7.5
 
 - Update atom-languageclient to 0.9.1 to address missing trigger characters on some completions
