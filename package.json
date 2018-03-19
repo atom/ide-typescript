@@ -24,7 +24,7 @@
       "type": "boolean",
       "title": "Ignore Flow project folders",
       "default": true,
-      "description": "Ignore project folders if that contain a Flow `.flowconfig` file."
+      "description": "Ignore project folders that contain a Flow `.flowconfig` file."
     },
     "returnTypeInAutocomplete": {
       "type": "string",
