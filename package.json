@@ -46,6 +46,10 @@
     "atom-languageclient": "0.9.1",
     "javascript-typescript-langserver": "^2.7.0"
   },
+  "activationHooks": [
+    "language-typescript:grammar-used",
+    "language-javascript:grammar-used"
+  ],
   "enhancedScopes": [
     "source.ts",
     "source.tsx",
