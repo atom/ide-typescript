@@ -1,9 +1,9 @@
 {
-  "name": "ide-typescript",
+  "name": "ide-typescript-theia",
   "main": "./lib/main",
   "version": "0.7.6",
   "description": "TypeScript and JavaScript language support for Atom-IDE.",
-  "repository": "https://github.com/atom/ide-typescript",
+  "repository": "https://github.com/mattlyons0/ide-typescript-theia",
   "license": "MIT",
   "engines": {
     "atom": ">=1.21.0"
@@ -44,7 +44,8 @@
   },
   "dependencies": {
     "atom-languageclient": "0.9.1",
-    "javascript-typescript-langserver": "^2.7.0"
+    "typescript": "^3.0.3",
+    "typescript-language-server": "^0.3.2"
   },
   "enhancedScopes": [
     "source.ts",
