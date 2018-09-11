@@ -1,8 +1,10 @@
 # IDE-TypeScript-Theia package
 
-TypeScript and JavaScript language support for Atom-IDE, powered by the [Theia TypeScript Language Server](https://github.com/theia-ide/typescript-language-server).
+TypeScript and JavaScript language support for Atom-IDE, powered by the [Theia TypeScript Language Server](https://github.com/theia-ide/typescript-language-server)
 
 ![Screen shot of IDE-TypeScript](screenshot.png)
+
+### **If outline shows spinner forever you need to specify *Path to Node.js Executable* in Settings**
 
 ## Package Status
 

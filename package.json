@@ -40,6 +40,12 @@
         }
       ],
       "description": "Where return types are shown in AutoComplete."
+    },
+    "nodePath": {
+      "type": "string",
+      "title": "Path to Node.js Executable",
+      "default": "",
+      "description": "If you run into problems with the plugin not starting correctly set this to the directory the 'node' executable is in on your computer (ex: '/usr/local/bin')"
     }
   },
   "dependencies": {
