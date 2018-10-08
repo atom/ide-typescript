@@ -1,3 +1,9 @@
+## v0.7.7
+
+- Update atom-languageclient to 0.9.7 to fix prompts, log messages, improve AutoComplete etc.
+- Setting to ignore flow projects
+- Setting to configure autocomplete suggestion priority
+
 ## v0.7.6
 
 - Compatibility with Atom's experimental tree-sitter parsing
