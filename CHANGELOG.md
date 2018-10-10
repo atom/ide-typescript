@@ -1,3 +1,9 @@
+## v0.7.8
+
+- Prevent error when opening a file without first opening a directory/folder (project)
+
+Note: It is recommended that you always open the root of your project as a folder in order for the language server to correctly identify your projects tsconfig etc.
+
 ## v0.7.7
 
 - Update atom-languageclient to 0.9.7 to fix prompts, log messages, improve AutoComplete etc.
