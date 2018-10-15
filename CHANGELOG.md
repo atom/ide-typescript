@@ -1,3 +1,7 @@
+## v0.7.9
+
+- Prevent initialization failure caused by spread operator on some versions of Atom
+
 ## v0.7.8
 
 - Prevent error when opening a file without first opening a directory/folder (project)
