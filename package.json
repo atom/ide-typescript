@@ -1,7 +1,7 @@
 {
   "name": "ide-typescript-theia",
   "main": "./lib/main",
-  "version": "0.7.6",
+  "version": "0.7.9",
   "description": "TypeScript and JavaScript language support for Atom-IDE.",
   "repository": "https://github.com/mattlyons0/ide-typescript-theia",
   "license": "MIT",
@@ -25,6 +25,12 @@
       "title": "Ignore Flow project folders",
       "default": true,
       "description": "Ignore project folders that contain a Flow `.flowconfig` file."
+    },
+    "autocompleteResultsFirst": {
+      "type": "boolean",
+      "title": "Show autocomplete results first",
+      "default": true,
+      "description": "Suggestions will be placed before the rest of autocomplete results (e.g. snippets etc). Requires restart to take effect."
     },
     "returnTypeInAutocomplete": {
       "type": "string",
