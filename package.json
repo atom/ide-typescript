@@ -56,7 +56,7 @@
   },
   "dependencies": {
     "atom-languageclient": "0.9.7",
-    "typescript-language-server": "0.3.6"
+    "@mattlyons/typescript-language-server": "0.4.0"
   },
   "enhancedScopes": [
     "source.ts",
