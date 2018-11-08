@@ -14,6 +14,12 @@
       "default": true,
       "description": "Use the TypeScript language server to provide diagnostics and warnings."
     },
+    "typescriptServerPath": {
+      "title": "TypeScript tsserver path",
+      "type": "string",
+      "default": "",
+      "description": "Location of the tsserver binary to use in the language server. Defaults to `tsserver` from the current path (`tsserver.cmd` on Windows)."
+    },
     "javascriptSupport": {
       "type": "boolean",
       "title": "JavaScript support",
@@ -50,7 +56,7 @@
   },
   "dependencies": {
     "atom-languageclient": "0.9.7",
-    "javascript-typescript-langserver": "^2.7.0"
+    "typescript-language-server": "0.3.6"
   },
   "enhancedScopes": [
     "source.ts",
