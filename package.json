@@ -14,11 +14,17 @@
       "default": true,
       "description": "Use the TypeScript language server to provide diagnostics and warnings."
     },
-    "typescriptServerPath": {
-      "title": "TypeScript tsserver path",
-      "type": "string",
-      "default": "",
-      "description": "Location of TypeScript tsserver.js for use by the language server. Defaults to bundled TypeScript dependency."
+    "typeScriptServer": {
+      "title": "TypeScript server",
+      "type": "object",
+      "properties": {
+        "path": {
+          "title": "TypeScript server path",
+          "type": "string",
+          "default": "node_modules/typescript/lib/tsserver.js",
+          "description": "Path to a TypeScript `tsserver.js` the language server. Defaults to the bundled version."
+        }
+      }
     },
     "javascriptSupport": {
       "type": "boolean",
