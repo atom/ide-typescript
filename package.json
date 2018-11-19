@@ -18,7 +18,7 @@
       "title": "TypeScript tsserver path",
       "type": "string",
       "default": "",
-      "description": "Location of the tsserver binary to use in the language server. Defaults to `tsserver` from the current path (`tsserver.cmd` on Windows)."
+      "description": "Location of TypeScript tsserver.js for use by the language server. Defaults to bundled TypeScript dependency."
     },
     "javascriptSupport": {
       "type": "boolean",
@@ -56,6 +56,7 @@
   },
   "dependencies": {
     "atom-languageclient": "0.9.8",
+    "typescript": "~3.1.6",
     "typescript-language-server": "0.3.7"
   },
   "enhancedScopes": [
