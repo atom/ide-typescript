@@ -22,7 +22,7 @@
           "title": "TypeScript server path",
           "type": "string",
           "default": "node_modules/typescript/lib/tsserver.js",
-          "description": "Path to a TypeScript `tsserver.js` the language server. Defaults to the bundled version."
+          "description": "Path to a TypeScript `tsserver.js` the language server will use to process TypeScript. Defaults to the bundled version."
         }
       }
     },
