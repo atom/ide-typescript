@@ -1,3 +1,14 @@
+## v0.8.0
+
+The underlying language server has been changed to the [Theia IDE typescript-language-server](https://github.com/theia-ide/typescript-language-server).  This resolves a number of important issues around module resolution, performance, version of TypeScript, tsconfig feature support etc.
+
+Thanks to the Theia IDE team for their language server and @mattlyons0 for helping figure out how to use it and push the necessary required changes upstream!
+
+- Changed language server to Theia IDE
+- Code Format now supported
+- No longer prints "Server failed to shutdown" on package deactivation
+- Many issues are likely resolved
+
 ## v0.7.9
 
 - Prevent initialization failure caused by spread operator on some versions of Atom
