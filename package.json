@@ -61,7 +61,7 @@
     }
   },
   "dependencies": {
-    "atom-languageclient": "0.9.8",
+    "atom-languageclient": "0.9.9",
     "typescript": "~3.1.6",
     "typescript-language-server": "0.3.7"
   },
