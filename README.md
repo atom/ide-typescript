@@ -5,9 +5,13 @@ TypeScript and JavaScript language support for Atom-IDE, powered by the [Theia T
 
 ![Screen shot of IDE-TypeScript](https://user-images.githubusercontent.com/118951/30306800-37e3c506-972f-11e7-805c-ba5a45a6bc3c.png)
 
-## Early access
+## Early Access
 
-This package is currently an early access release.  You should also install the [atom-ide-ui](https://atom.io/packages/atom-ide-ui) package to expose the functionality within Atom.
+This package is currently an early access release. To expose the functionality within Atom install the abandoned [`atom-ide-ui`](https://atom.io/packages/atom-ide-ui) package or the actively developed community packages:
+
+- [`atom-ide-datatip`](https://github.com/atom-ide-community/atom-ide-datatip#readme)
+- [`atom-ide-definitions`](https://github.com/atom-ide-community/atom-ide-definitions#readme)
+- [`atom-ide-signature-help`](https://github.com/atom-ide-community/atom-ide-signature-help#readme)
 
 ## Features
 
