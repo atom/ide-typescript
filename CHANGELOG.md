@@ -1,3 +1,8 @@
+## v0.9.0
+
+- Delay package activation until needed to improve Atom startup time (@laughedelic)
+- Prevent error after package deactivation
+
 ## v0.8.0
 
 The underlying language server has been changed to the [Theia IDE typescript-language-server](https://github.com/theia-ide/typescript-language-server).  This resolves a number of important issues around module resolution, performance, version of TypeScript, tsconfig feature support etc.
