@@ -66,12 +66,10 @@
     "typescript-language-server": "0.3.7"
   },
   "activationHooks": [
-    "language-typescript:grammar-used",
-    "language-javascript:grammar-used",
-    "source.js:root-scope-used",
-    "source.js.jsx:root-scope-used",
     "source.ts:root-scope-used",
-    "source.tsx:root-scope-used"
+    "source.tsx:root-scope-used",
+    "source.js:root-scope-used",
+    "source.js.jsx:root-scope-used"
   ],
   "enhancedScopes": [
     "source.ts",
