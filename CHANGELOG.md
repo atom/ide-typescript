@@ -1,3 +1,7 @@
+## v0.9.1
+
+- Generalize activation logic so that it works with all JS/TS language packages (@Aerijo)
+
 ## v0.9.0
 
 - Delay package activation until needed to improve Atom startup time (@laughedelic)
