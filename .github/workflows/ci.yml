@@ -19,5 +19,3 @@ jobs:
         version: ${{ matrix.channel }}
     - name: Install dependencies
       run: apm install
-    - name: Run tests
-      run: atom --test spec
